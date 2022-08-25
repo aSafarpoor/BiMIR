@@ -1,0 +1,16 @@
+Keras==2.3.1
+numpy
+futures==3.1.1
+cryptography
+aiofiles
+gdown
+Pillow
+pymilvus==2.0.0
+fastapi
+uvicorn
+python-multipart
+PyMySQL
+sentence_transformers==1.2.0
+fasttext
+hazm
+tqdm

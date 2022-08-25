@@ -1,0 +1,7 @@
+# UPTODATE Crawler
+
+<img src="https://www.asco.org/sites/new-www.asco.org/files/content-files/logos/2020-UpToDate_368.png" alt="uptodate-logo"/>
+
+We use crawled articles from "www.uptodate.com" for this project, a software system that is a point-of-care medical resource. Our dataset contains 18,488 medical papers in various fields.These papers are located in the 00_uptodate_crawler folder. The way our crawler works is that first, it tries to log in to the website using a given username and password. The security mechanism of this site is such that if the requests are only the GET type, the account sending those requests will be blocked. As a result, the crawler logs out of the site once every twenty requests to avoid getting blocked by the website's security system. In addition, with a dummy search (implementation in method of the same name in the uptodate_crawler.py file) after re-entering the site, we search for the word "drug" on the site to prevent future requests from being blocked. We saved the crawled articles as a MongoDB database in a JSON file.
+
+The JSON file containing UptoDate articles contains a list of dictionaries, and each of these dictionaries represent an article. The length of the list or the number of articles is equal to 18488 articles. These dictionaries have two important keys: topicInfo which contains various information about the article, including its title and language and bodyHtml which contains the article's main text.

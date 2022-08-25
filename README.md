@@ -1,16 +1,9 @@
-lets note, this repository is created in private mode months ago. 
-
 # Bi-lingual Medical Information Retrieval (BiMIR)
 
 
 An information retrieval system using uptodate medical data that supports persian and english languages.
 
-Project Team Members in alphabetical order:
-* Mahdi Hemmatyar
-* Mohammad Ali Sadraei Javaheri
-* Ali Safarpoor Dehkordi
-* Alireza Sahebi
-* Zahra Yousefi
+Created by: Alireza Sahebi, Mohammad Ali Sadraei Javaheri, Zahra Yousefi, Ali Safarpoor Dehkordi, Mahdi Hemmatyar
 
 ## Project Structure
 
